@@ -1,0 +1,41 @@
+/* 모든 요소 선택 */
+* {
+  font-weight: bold;
+  color:darkorange;
+}
+
+* {
+  color:plum;
+}
+
+/* 태그 선택자 */
+p {
+  color: olivedrab;
+}
+
+/* 클래스 선택자 */
+/* 태그보다 우선 순위가 높음 페이지 상의 여러 요소가 같은 class 가질 수 있음. */
+.blue {
+  color: lightblue;
+}
+/*
+다른 클래스에 이어붙이는 것이 가능함. (다른 태그 / 다른 클래스) 
+선택자는 구체적일 수록 우선순위가 높다는 점이 동일하게 적용
+*/
+p.blue {
+  color: slateblue
+}
+.blue.dark {
+  color: mediumblue;
+}
+p.blue.dark {
+  color:darkblue;
+}
+/* 
+id 선택자
+class보다 우선순위가 높음
+id는 페이지 상에서 요소마다 고유해야 함.
+*/
+#red {
+  color:orange
+}
