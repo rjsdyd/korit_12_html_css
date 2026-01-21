@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    div {
+      margin-bottom: 10px;
+    }
+    .my {
+      width: 200px;
+      height: 200px;
+      background-image: url(../images/image.png);
+      background-repeat: no-repeat;
+      border-radius: 50%;
+      background-position: center;
+      background-size: cover;
+    }
+    .outer {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      overflow: hidden;
+    }
+    .inner {
+      background-image: url(../images/image.png);
+      height: 100%;
+      background-size: cover;
+      background-position: 50% 50%;
+    }
+  </style>
+</head>
+<body>
+  <h1>background</h1>
+  <div class="my"></div>
+  <div class="outer">
+    <div class="inner"></div>
+  </div>
+</body>
+</html>
