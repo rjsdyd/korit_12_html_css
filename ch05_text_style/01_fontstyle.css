@@ -1,1 +1,9 @@
 /* 여기에 css 파일 작성할 예정 */
+p {
+  font-style: normal;
+  /* font-style: italic; */
+  /* font-style: oblique; */
+  /* font-weight: normal; */
+  /* font-weight: bold; */
+  font-weight: 450;
+}
